@@ -1,25 +1,22 @@
 @import '../../../../../dist/scss/variables.scss';
 
-:host {
+:host{
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin-top: -20px;
 
-    input {
-        width: 80%;
+    margin-top: 20px;
 
+    button{
         border: none;
-        background: $tertianary-background-color;
+        border-radius: 50px ;
+        background-color: $danger-color;
 
         font-size: .9em;
         color: $secondary-text-color;
-        text-align: center;
 
+        width: 60%;
         padding: 10px;
-        box-sizing: border-box;
-
-        &::placeholder {
-            color: $secondary-text-color;
-        }
+       
     }
 }
